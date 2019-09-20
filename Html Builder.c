@@ -84,9 +84,9 @@ int main (){
     fflush(stdin);
     printf("\n Type a title for your site: \n  ");
     scanf("%s", &titulo);
-    fprintf(index, "<html><head><title>%s</title>", titulo); //Título
+    fprintf(index, "<html><head><title>%s</title>", titulo); //TÃ­tulo
     fprintf(index, "<link rel=%cstylesheet%c type=%ctext%ccss%c", iCommas, iCommas, iCommas, barra, iCommas);
-    fprintf(index, " href=%cestilo.css%c/>", iCommas, iCommas); //Título
+    fprintf(index, " href=%cestilo.css%c/>", iCommas, iCommas); //TÃ­tulo
     system("cls");
 
     /*------------------------------------------------
@@ -134,6 +134,6 @@ int main (){
 
 
     printf("\n Open the file that was created <%cindex.html%c>\n\n", iCommas, iCommas);
-
+ 
     return(0);
 }
