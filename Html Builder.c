@@ -127,7 +127,7 @@ int main (){
     if(arrow == 7) {char background[16] = "#000000"; fprintf(css, "background-color: %s; ", background);};
     if(arrow == 8) {
             system("cls");
-            printf("\n  Type the color (hexacode): \ \n  #");
+            printf("\n  Type the color (hexacode): \n  #");
             char background[16] = "#000000";
             scanf("%s", background);
             fprintf(css, "background-color: #%s; ", background);
@@ -147,7 +147,7 @@ int main (){
     if(arrow == 6) {char background[16] = "#f0f0f0"; fprintf(css, "color: %s; ", background);}
     if(arrow == 7) {char background[16] = "#000000"; fprintf(css, "color: %s; ", background);}
     if(arrow == 8) {
-            printf("\n  Type the color (hexacode): \ \n  #");
+            printf("\n  Type the color (hexacode): \n  #");
             char background[16] = "#000000";
             scanf("%*c%s", background);
             fprintf(css, "color: #%s; ", background);}
